@@ -88,14 +88,14 @@ Cada expediente incorpora una columna de **Explicabilidad (`Carta_Explicacion_LL
 El informe final consta de dos vistas interactivas conectadas mediante acciones de filtrado cruzado:
 
 1. **Página 1 — Dashboard Ejecutivo de Riesgo y AML:**
-   * KPIs dinámicos de colocación solicitada, tasa de aprobación/rechazo y casos críticos AML.
+   * KPIs dinámicos de Monto solicitada, Probabilidad de riesgo e índice promedio de riesgo forense/AML.
    * Distribución de cartera por decisión final y estatus forense.
    * Tabla interactiva de auditoría con probabilidad ML y dictamen explicable por cliente.
 
 ![Dashboard Ejecutivo](assets/dashboard_ejecutivo.jpeg)
 
 2. **Página 2 — Pronóstico Financiero (12 Meses):**
-   * Serie de tiempo unificada comparando volumen histórico real, curva suavizada de predicción Holt-Winters y túnel de confianza al 95%.
+   * Serie de tiempo comparando volumen histórico real, curva de predicción Holt-Winters y túnel de confianza al 95%.
 
 ![Serie de Tiempo](assets/pronostico_financiero.jpeg)
 
